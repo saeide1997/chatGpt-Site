@@ -6,9 +6,9 @@ import Link from "next/link";
 const Homepage = () => {
 
   return (
-    <div className="flex relative">
+    <div className="flex ">
       <Navbar />
-      <Link href={'/dashboard'} >dashboard</Link>
+      <Link href='/dashboard' >dashboard</Link>
     </div>
   );
 };
