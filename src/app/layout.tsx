@@ -7,7 +7,7 @@ import {
   SignedOut,
   UserButton
 } from '@clerk/nextjs'
-import React from 'React'
+import React from 'react'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +23,7 @@ export default function RootLayout({children}:
       <html lang="en">
         <body>
           <SignedOut>
-            <SignInButton />
+            {/* <SignInButton /> */}
           </SignedOut>
           <SignedIn>
             <UserButton />
