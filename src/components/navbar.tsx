@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="px-4 py-16 h-screen">
+    <div className="px-4 py-16 h-10 w-screen absolute top-0">
       <div className="flex items-center justify-between">
         <Link className="flex items-center font-bold gap-8" href="/">
           <Image
